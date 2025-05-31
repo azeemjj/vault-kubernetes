@@ -62,3 +62,8 @@ spec:
 ## Become a Cloud and DevOps Engineer
 
 Learn every tool that matters: https://rayanslim.com
+
+## If you will run this in a Kubernetes cluster, then please runthe  vault deployment and the vault service in dthe emo namespace 
+**
+kubectl apply -n demo -f vault-deployment.yaml
+kubectl apply -n demo -f vault-service.yaml
